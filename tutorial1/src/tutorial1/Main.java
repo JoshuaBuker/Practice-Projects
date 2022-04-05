@@ -51,6 +51,7 @@ public class Main {
 		
 	//Scanners - AKA User Input
 	//first you need to import scanner at the very top of the file.
+		
 		Scanner sc = new Scanner(System.in);
 		String scanned = sc.next();
 		int scanned_num = sc.nextInt();
@@ -66,8 +67,37 @@ public class Main {
 		int converted = Integer.parseInt(scanned);
 		
 	//Comparison Operators
+		// > greater thab
+		// < less than
+		// == equals
+		// != not equal
+		// <= less than or equal to
+		// >= greater than or equal to
 		
+		// When comparing Strings, use .equals
+		Scanner scanner = new Scanner(System.in);
+		String comparedString = scanner.next();		
+	
+	// If the user inputs the string "Bruh" it will respond with "Bruh Indeed". If it is anything else, 
+	// It will respond with "Wrong Password Fam"
+		if (comparedString.equals("Bruh")) {
+			System.out.println("Bruh Indeed");
+		} else {
+			System.out.println("Wrong Password Fam");
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
 	
 
 }
