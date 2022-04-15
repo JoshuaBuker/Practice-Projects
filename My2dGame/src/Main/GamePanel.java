@@ -35,10 +35,6 @@ public class GamePanel extends JPanel implements Runnable {
 	
 	Player player = new Player(this,keyH);
 	
-	// Set Player default Postion
-	int playerX = 100;
-	int playerY = 100;
-	int playerSpeed = 4;
 	
 	// Game Panel Constructor 
 	public GamePanel() {
